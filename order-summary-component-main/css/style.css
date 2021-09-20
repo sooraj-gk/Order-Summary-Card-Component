@@ -1,0 +1,93 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+/* font-family: 'Red Hat Display', sans-serif; */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-color: #e0e8ff;
+  background-repeat: no-repeat;
+}
+
+p {
+  font-size: 16px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.hero_image {
+  border-radius: 3vw 3vw 0 0;
+  height: auto;
+  width: auto;
+}
+
+.card {
+  background-color: white;
+  height: auto;
+  width: 60.5vw;
+  border-radius: 3vw;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.main {
+  padding: initial;
+  margin: auto;
+  background-color: lightblue;
+  width: auto;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.misc_svg {
+  margin: auto;
+  width: auto;
+  height: auto;
+}
+
+.txt3 {
+  align-self: center;
+}
+
+.link {
+  align-self: center;
+  margin: auto;
+  /* overflow: hidden; */
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .hero_image {
+    border-radius: 3vw 3vw 0 0;
+    height: auto;
+    width: 60.5vw;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    background-color: white;
+    height: auto;
+    width: 70px;
+    border-radius: 3vw;
+    margin: auto;
+    margin-top: 10vh;
+  }
+}
