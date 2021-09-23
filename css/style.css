@@ -1,0 +1,115 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+/* font-family: 'Red Hat Display', sans-serif; */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-image: url(../images/pattern-background-mobile.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+}
+
+.img {
+  box-sizing: border-box;
+  width: 20rem;
+  border-radius: 1em 1em 0 0;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 20rem;
+  height: auto;
+  margin: auto;
+  margin-top: 4rem;
+  border-radius: 1em;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 #cdd4f6, 0 6px 20px 0 #cdd4f6;
+}
+
+.text_1 {
+  margin-bottom: 0.5vh;
+}
+
+.plan_details {
+  width: 35vh;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  box-sizing: border-box;
+}
+
+.music_svg {
+  height: 35px;
+  width: auto;
+  margin: auto;
+}
+
+.text2 {
+  margin: auto;
+}
+
+.link {
+  align-self: center;
+  margin: auto;
+}
+
+.payment_btn {
+  width: 35vh;
+  height: 5vh;
+  margin-top: 0.5vh;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: 700;
+  border-radius: 0.6em;
+  border: none;
+  z-index: 1;
+  box-shadow: 0px 15px 20px #d8d6fa;
+}
+
+.cancel_btn {
+  width: 35vh;
+  height: 5vh;
+  margin: 2vh 0 1vh 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  border-radius: 0.6em;
+  border: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.payment_btn:hover {
+  background-color: #766cf1;
+}
+
+.cancel_btn:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+@media only screen and (min-width: 375px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+  }
+}
