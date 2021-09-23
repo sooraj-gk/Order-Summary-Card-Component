@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/sooraj-studio/Order-Summary-Card-Component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [project](https://clever-archimedes-2c8b22.netlify.app/)
 
 ## My process
 
