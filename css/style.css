@@ -81,6 +81,7 @@ p {
   border: none;
   z-index: 1;
   box-shadow: 0px 15px 20px #d8d6fa;
+  curser:pointer;
 }
 
 .cancel_btn {
@@ -92,6 +93,7 @@ p {
   font-weight: 900;
   border-radius: 0.6em;
   border: none;
+  curser: pointer;
 }
 
 .attribution {
@@ -101,10 +103,12 @@ p {
 
 .payment_btn:hover {
   background-color: #766cf1;
+  curser: pointer;
 }
 
 .cancel_btn:hover {
   color: hsl(223, 47%, 23%);
+  curser:pointer;
 }
 
 @media only screen and (min-width: 375px) {
